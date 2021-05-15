@@ -108,7 +108,7 @@ parser.add_argument(
     '--batch_size', type=int, default=1,
     help='batch_size')
 parser.add_argument(
-    '--train_path', type=str, default='/home/yinxinjia/yingxin/dataset/COCO2014_train/', 
+    '--train_path', type=str, default='/home/vince/Experiments/SuperGlue-pytorch/datasets/COCO2014_train/', 
     help='Path to the directory of training imgs.')
 parser.add_argument(
     '--epoch', type=int, default=20,
